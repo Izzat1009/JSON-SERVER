@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0 ;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.wrapper{
+  max-width: 1440px;
+  margin: 0 auto
+  ;
+  
+  padding: 0 16px
+  ;
+}
+.inputs{
+   margin-top: 130px;
+   display: flex;
+   flex-direction: column;
+  }
+
+input{
+  padding: 20px;
+  display: flex;
+  border: none;
+  border-radius: 5px;
+  border: 2px solid #ddd;
+  margin: 0 auto;
+}
+.submit-btn{
+  margin: 0 auto;
+  padding: 20px;
+  width: 310px;
+  border: none;
+  border-radius: 5px;
+  background: #dbdbdb;
+  transition: .3s;
+}
+.submit-btn:hover{
+  background-color: #727272;
+  color: #aaa;
+}
+h2{
+  margin-left: 100px;
+  margin-top: 50px;
+}
